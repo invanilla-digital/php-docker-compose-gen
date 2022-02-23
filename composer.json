@@ -1,0 +1,29 @@
+{
+  "name": "invanilla/docker-compose-generator",
+  "description": "Manage local docker-compose setup through code",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Invanilla\\DockerComposeGenerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Invanilla\\DockerComposeGenerator\\Tests\\": "test/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Rudolfs Heimanis",
+      "email": "rudolfs@invanilla.lv"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "require": {
+    "symfony/yaml": "^6.0",
+    "ramsey/collection": "^1.2"
+  }
+}
